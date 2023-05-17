@@ -10,3 +10,151 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+html, body {
+    height: 120%;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, #00a2b8, #3ce1ec, #b0fffb);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    
+    
+}
+
+.pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes pulse {
+    0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    }
+    @keyframes pulse {
+    0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    } 
+
+.contenedor{
+    background: rgba( 255, 255, 255, 0.75 );
+    box-shadow: 0px 0px 14px 15px rgba(0,0,0,0.2);
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 60rem;
+}
+
+
+
+
+input{
+    margin-top: 2rem;
+    border-radius: 5px;
+    width: 40rem;
+    padding: 10px;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.3rem;
+
+}
+
+
+
+li{
+    align-items: center;
+    justify-content: center;
+    background-color: #ccdaff;
+    width: 40rem;
+    list-style: none;
+    padding: 5px;
+    font-size: 1.3rem;
+    font-family: 'EB Garamond', serif;
+    margin-left: 6.7rem;    
+
+}
+
+button{
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.addBTN{
+   
+    font-weight: bold;
+    padding: 10px 10px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #ff9bde;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .addBTN:hover {background-color: #E599ED}
+
+
+
+.theLi{
+    border: 1px solid black;
+    border-radius: 4px;
+
+    
+}
+
+.eraser {
+    position: relative;
+    background-color: #9a00c0;
+    border: none;
+    font-size: 30px;
+    color: #FFFFFF;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .eraser:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+  }
+    
