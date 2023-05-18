@@ -106,55 +106,40 @@ li{
 
 }
 
-button{
-    border-radius: 5px;
-    padding: 5px;
 
-}
-
-.addBTN{
-   
-    font-weight: bold;
-    padding: 10px 10px;
-    font-size: 24px;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
-    background-color: #ff9bde;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
-  }
-  
-  .addBTN:hover {background-color: #E599ED}
 
 
 
 .theLi{
     border: 1px solid black;
     border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    justify-content: space-between!important;
+
 
     
 }
 
 .eraser {
-    position: relative;
-    background-color: #9a00c0;
+    background-color: #00a2ff;
+    border-radius: 5px;
     border: none;
-    font-size: 30px;
     color: #FFFFFF;
-    width: 3rem;
-    height: 3rem;
+    width: 2.4rem;
+    height: 2.4rem;
     text-align: center;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
-  }
+    padding: 5px;
+
+    
+}
   .eraser:hover {
-    transform: scale(1.2);
+    transform: scale(0.8);
     transition: transform 0.3s ease-in-out;
   }
     

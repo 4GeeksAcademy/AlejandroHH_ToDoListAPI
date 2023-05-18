@@ -86,7 +86,7 @@ const TodoList = () => {
         {data.map((task, index)=> {
           return (
                   <li className="d-flex justify-content-center theLi " key={index}>{task.label}
-                <FontAwesomeIcon icon={faEraser} onClick={() => deleteItems(index) } /> </li> 
+                <FontAwesomeIcon className="eraser " icon={faEraser} onClick={() => deleteItems(index) } /> </li> 
           )
         })}
         </ul>
